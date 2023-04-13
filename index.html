@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>DZ_forms</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+</body>
+<div>
+  <div class="conteiner">
+    <div>
+      <h2>PAYMRNT DETAILS</h2>
+      <form action="">
+        <div class="form">
+          <input type="text" id="name" list="card" placeholder="NAME ON CARD" maxlength="10">
+          <datalist id="card">
+            <option value="">
+            <option value="">
+            <option value="">
+          </datalist>
+          <div class="blok">
+            <div class="number">
+              <input type="number" placeholder="CARD NUMBER" min="3">
+            </div>
+            <div class="blok_right">
+              <div class="date">
+                <input type="date" placeholder="EXPIRY DATE">
+              </div>
+              <div class="num">
+                <input type="number" placeholder="CARD NUMBER" min="3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <h2>BILLING ADDRESS</h2>
+    <div class="form">
+      <form action="">
+        <div class="blok_style">
+          <div class="style">
+            <input type="text" placeholder="NAME ON CARD">
+          </div>
+          <div class="style">
+            <input type="text" placeholder="CITY">
+          </div>
+          <div class="style">
+
+            <select name="state" id="state">
+              <option value="">STATE PROVINCE</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
+          </div>
+          <div class="style">
+            <input type="number" placeholder="ZIP CODE">
+          </div>
+        </div>
+    </div>
+    </form>
+
+    <form class="butom">
+      <div>
+        <input type="submit" class="btn" value="PAY $888">
+      </div>
+    </form>
+  </div>
+  </body>
+
+</html>
